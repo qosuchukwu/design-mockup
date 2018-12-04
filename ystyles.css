@@ -1,0 +1,261 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: inherit;
+}
+
+.div-1 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  height: 6%;
+  background: #66289C;
+}
+
+.yahoo_input {
+  display: flex;
+  padding: 11px;
+  margin-left: 21%;
+}
+
+
+
+
+
+.div-2 {
+  position: : relative;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 39%;
+  background-image: url(http://www.minority-review.com/wp-content/uploads/2013/06/now-you-see-me-still01.jpg);
+  background-size: cover;
+  background-position: 49px -273px;
+  width: 100%;
+}
+
+ .div-2-icons {
+    position: absolute;
+    bottom: 48.7%;
+    left: 13%;
+    width: 35vw;
+    height: 25vw;
+    border: none;
+    padding: 25px;
+    margin: 30px;
+
+
+}
+
+#p1 {
+  position: absolute;
+  top: 15%;
+  right: 31%;
+  width: 7.5%;
+  padding: 0 0 0 0px;
+  border: none;
+  white-space: nowrap;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6em;
+
+}
+
+#p2 {
+  position: absolute;
+  top: 22%;
+  right: 31%;
+  width: 7.5%;
+  padding: 0 0 0 0px;
+  white-space: nowrap;
+}
+
+#p3 {
+  position: absolute;
+  top: 27%;
+  right: 31%;
+  width: 7.5%;
+  padding: 0 0 0 0px;
+  font-size: 0.9em;
+}
+
+
+
+.div-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 5%;
+  color: white;
+  background: #66289C;
+}
+
+
+#nav-mid-menu {
+   display: flex;
+   margin-left: 25%;
+   flex-direction: row;
+   align-items: center;
+
+   justify-content: space-between;
+   list-style-type: none;
+   color: white;
+   text-decoration: none;
+}
+
+li {
+    display:inline;
+    padding: 10px 45px;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.opt-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 41%;
+  list-style-type: none;
+  white-space: nowrap;
+  color: #E9ECEF;
+}
+
+.div-4 {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+  background: #E9ECEF;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+}
+
+
+
+
+.circle-with-twitter {
+  position: absolute;
+  left: 15.8%;
+  top: 60%;
+  width: 110px;
+  height: 110px;
+  border: 2.8px solid #66289C;
+  border-radius: 50%;
+  color: #825AC4;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-family: 'Crimson Text', serif;
+  font-size: 5.3em;
+
+  /* become a flex container */
+  /* its children will be flex items */
+  display: flex;
+  /* place items in column */
+  flex-direction: column;
+  /* center flex items horizontally */
+  align-items: center;
+  /* center all content vertically */
+  justify-content: center;
+}
+
+/* simulate one more item to "balance" dex text */
+.circle:before {
+  content: "\A0";
+  visibility: hidden;
+}
+
+
+.circle-with-flickr {
+  position: absolute;
+  left: 25%;
+  top: 60%;
+  width: 110px;
+  height: 110px;
+  border: 2.8px solid #66289C;
+  border-radius: 50%;
+  color: #825AC4;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 1.7em;
+
+  /* become a flex container */
+  /* its children will be flex items */
+  display: flex;
+  /* place items in column */
+  flex-direction: column;
+  /* center flex items horizontally */
+  align-items: center;
+  /* center all content vertically */
+  justify-content: center;
+}
+
+/* simulate one more item to "balance" dex text */
+.circle:before {
+  content: "\A0";
+  visibility: hidden;
+}
+
+
+#div-5-news {
+  display: flex;
+  border: none;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 37%;
+  padding: 0;
+
+
+}
+
+
+.div-5 {
+  display: flex;
+  flex-direction: row;
+  height: 57%;
+  background: #F0EDC3;
+  background-size: cover;
+}
+
+  #p4 {
+    position: absolute;
+    top: 92%;
+    right: 19.1%;
+    width: 23%;
+    padding: 0 0 0 0px;
+    white-space: wrap;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 1.7em;
+    color: #66289C;
+  }
+
+  #p5 {
+    position: absolute;
+    top: 99%;
+    right: 17%;
+    width: 25%;
+    padding: 0 0 0 0px;
+    font-size: 0.9em;
+    font-size: 1em;
+    color: #66289C;
+  }
+
+
+  .learnmore {
+  position: absolute;
+  right: 33%;
+  top: 111%
+}
+
+  .learnmorebtn {
+    background-color: #66289C; /* Purple */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    right: 17%;
+  }
